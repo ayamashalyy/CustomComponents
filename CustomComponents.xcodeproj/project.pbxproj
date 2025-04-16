@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E883C0442DB036E20018D6E9 /* AvatarGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883C0432DB036E20018D6E9 /* AvatarGroupView.swift */; };
+		E883C0472DB03AA90018D6E9 /* AvatarGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883C0452DB03AA90018D6E9 /* AvatarGroupViewController.swift */; };
+		E883C0482DB03AA90018D6E9 /* AvatarGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E883C0462DB03AA90018D6E9 /* AvatarGroupViewController.xib */; };
 		E8AB13642DAED923006335E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB13632DAED923006335E4 /* AppDelegate.swift */; };
 		E8AB13662DAED923006335E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB13652DAED923006335E4 /* SceneDelegate.swift */; };
 		E8AB136D2DAED924006335E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AB136C2DAED924006335E4 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E883C0432DB036E20018D6E9 /* AvatarGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarGroupView.swift; sourceTree = "<group>"; };
+		E883C0452DB03AA90018D6E9 /* AvatarGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarGroupViewController.swift; sourceTree = "<group>"; };
+		E883C0462DB03AA90018D6E9 /* AvatarGroupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvatarGroupViewController.xib; sourceTree = "<group>"; };
 		E8AB13602DAED923006335E4 /* CustomComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AB13632DAED923006335E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8AB13652DAED923006335E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E883C0422DB036CF0018D6E9 /* AvatarGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E883C0432DB036E20018D6E9 /* AvatarGroupView.swift */,
+				E883C0452DB03AA90018D6E9 /* AvatarGroupViewController.swift */,
+				E883C0462DB03AA90018D6E9 /* AvatarGroupViewController.xib */,
+			);
+			path = AvatarGroup;
+			sourceTree = "<group>";
+		};
 		E8AB13572DAED923006335E4 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +111,7 @@
 		E8AB137A2DAEDB14006335E4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				E883C0422DB036CF0018D6E9 /* AvatarGroup */,
 				E8AB137B2DAEDB32006335E4 /* FloatingTextField */,
 			);
 			path = Modules;
@@ -169,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8AB136D2DAED924006335E4 /* Assets.xcassets in Resources */,
+				E883C0482DB03AA90018D6E9 /* AvatarGroupViewController.xib in Resources */,
 				E8AB13702DAED924006335E4 /* Base in Resources */,
 				E8AB13812DAEDC7F006335E4 /* FloatingTextFieldVC.xib in Resources */,
 			);
@@ -182,8 +200,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8AB13642DAED923006335E4 /* AppDelegate.swift in Sources */,
+				E883C0472DB03AA90018D6E9 /* AvatarGroupViewController.swift in Sources */,
 				E8AB137D2DAEDBEA006335E4 /* FloatingTextField.swift in Sources */,
 				E8AB13802DAEDC7F006335E4 /* FloatingTextFieldVC.swift in Sources */,
+				E883C0442DB036E20018D6E9 /* AvatarGroupView.swift in Sources */,
 				E8AB13662DAED923006335E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
